@@ -10,4 +10,6 @@ wheels/
 .venv
 
 # Dataset (large files, use dataset.zip)
-dataset/
+bge-base-zh-v1.5/
+bge-reranker-base/
+/data/*

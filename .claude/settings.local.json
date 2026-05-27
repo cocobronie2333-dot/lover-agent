@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd:*)",
+      "Bash(uv:*)",
+      "Bash(powershell -Command \"irm https://astral.sh/uv/install.ps1 | iex\")",
+      "Bash(export:*)",
+      "Bash(/c/Users/CocoBronie/.local/bin/uv init:*)",
+      "Bash(head:*)",
+      "Bash(wc:*)",
+      "Bash(git remote:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git rm:*)",
+      "Bash(du:*)",
+      "Bash(cd dataset:*)",
+      "Bash(python:*)",
+      "Bash(.venv/Scripts/pip install:*)",
+      "Bash(.venv\\\\Scripts\\\\pip.exe install:*)",
+      "Bash(\".venv/Scripts/pip.exe\" install:*)",
+      "Bash(E:/workspace/loverAgent/.venv/Scripts/pip.exe show:*)",
+      "Bash(\"/e/workspace/loverAgent/.venv/Scripts/pip.exe\" show:*)",
+      "Bash(.venv/Scripts/pip.exe show:*)",
+      "Bash(.venv/Scripts/python.exe -m pip show torch)"
+    ]
+  }
+}
